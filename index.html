@@ -1,0 +1,88 @@
+<script>
+    function kop(){
+        const link = document.querySelector('a[href="#section-try"]');
+
+        link.addEventListener('click', function(event) {
+        event.preventDefault();
+        const section = document.querySelector('#section-try');
+        section.scrollIntoView({ behavior: 'smooth' });
+        });
+    }
+</script>
+
+{%extends "base.html"%}
+
+{%block content%}
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+    <div class="wrapper  my-bg">
+        <div class="left-section">
+            <h1>Image Caption Generator</h1>
+            <br>
+            <p>
+                Welcome to Image Caption Generator, an AI-based project that uses cutting-edge deep learning techniques to generate automatic captions for your images. With this project, you can generate accurate and descriptive captions for your images, without the need for human intervention. 
+            </p>
+            <p>
+                Our Image Caption Generator uses a state-of-the-art deep neural network model to analyze the content of your images and generate captions that accurately describe what's going on in the image. Whether you're a blogger, social media influencer, or a professional photographer, Image Caption Generator can help you save time and effort in generating captions for your images. 
+            </p>
+            <p>
+                Our Image Caption Generator project has been trained on a massive dataset of images and captions, and uses a combination of natural language processing and computer vision techniques to generate captions that are not only accurate but also easy to read and understand. With its advanced features and intuitive interface, our Image Caption Generator can generate captions for a wide variety of images, from landscapes to portraits and everything in between. 
+            </p>
+            
+            <p>
+                Whether you're looking to save time in generating captions for your images or want to enhance your social media presence with high-quality captions, Image Caption Generator is the perfect tool for you. Try it out today and experience the power of AI-based caption generation for your images! 
+            </p>
+            <br>
+            <h3><a href="generate.html">Click here to try now</a></h3>
+        </div>
+
+        <div class="right-section">
+            <h1>Examples </h1> <br>    
+            <img class="img1" src="../static/images/test1.jpeg">
+            <img class="img2" src="../static/images/test2.jpeg">
+            <img class="img3" src="../static/images/test3.jpeg">
+            <img class="img4" src="../static/images/test4.jpeg">
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+{%endblock%}

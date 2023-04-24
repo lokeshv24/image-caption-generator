@@ -1,0 +1,40 @@
+<html>
+
+<div class="navbar">
+    <div class="navbar-links">
+      <a href="/">Home</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="about.html">About Us</a>
+    </div>
+    <div class="search-box">
+      <input type="text" placeholder="Search...">
+    </div>
+</div>
+
+<center style="color:rgb(0, 0, 0);">
+
+	<h1 class='display-2'>Image Caption </h1>
+
+	<br>
+	
+<img src="{{url_for('static', filename='file.jpg')}}" alt="image" height=240px>
+<br>
+<br>
+<br>
+<h2>Generated Caption </h2>  {{final}}
+<br>
+<br>
+
+
+<button onclick="history.back()" style="background-color: rgba(244, 238, 238, 0.855); color: rgb(16, 15, 15); font-size: 15px;">GO BACK</button>
+
+
+
+<br>
+
+
+
+</center>
+
+
+</html>
